@@ -41,7 +41,7 @@ IV. KEY TECHNICALITIES
 The project used Spark Python API (PySpark) to perform exploratory data analysis at scale (i.e. cluster computing system for Big Data). The steps followed in the notebook are:
 
 1. Load and Clean Dataset<br>
-- The dataset contains Sparkify log data.  is loaded, cleaned, and checked for invalid or missing data (e.g. Logged Out users are filtered out). The dataset file *medium-sparkify-event-data.json* is not included in the github repo due to size limitations. 
+- The dataset file *medium-sparkify-event-data.json* contains 2 months (1-Oct-18 to 1-Dec-18) of Sparkify log data. Dataset is loaded, cleaned, and checked for invalid or missing data (e.g. Logged Out users are filtered out). The dataset file is not included in the github repo due to size limitations. 
 
 2. Exploratory Data Analysis<br>
 -Churn is defined using the *Cancellation Confirmation* page, which happen for both paid and free users.
