@@ -44,9 +44,9 @@ The project used Spark Python API (PySpark) to perform exploratory data analysis
 - The dataset file *medium-sparkify-event-data.json* contains 2 months (1-Oct-18 to 1-Dec-18) of Sparkify log data. Dataset is loaded, cleaned, and checked for invalid or missing data (e.g. Logged Out users are filtered out). The dataset file is not included in the github repo due to size limitations. 
 
 2. Exploratory Data Analysis<br>
--Churn is defined using the *Cancellation Confirmation* page, which happen for both paid and free users.
--Various user attributes are computed and compared for churn and non-churn users.
--Comparing these attributes between churned and non-churned users, the behavior of these two groups is observed.
+- Churn is defined using the *Cancellation Confirmation* page, which happen for both paid and free users.
+- Various user attributes are computed and compared for churn and non-churn users.
+- Comparing these attributes between churned and non-churned users, the behavior of these two groups is observed.
 
 3. Feature Engineering and Selection<br>
 - The defined user attributes were calculated over different timeframes, in order to select the attributes for a future model.
