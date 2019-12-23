@@ -26,7 +26,7 @@ ibmos2spark==1.0.1*
 II. FILE DESCRIPTIONS
 
 | *191216 Sparkify IBM.ipynb* The Jupyter notebook run in the IBM cloud<br>
-| *191222 Blog post.pdf* The blog post<br>
+| *191223 Blog post.pdf* The blog post<br>
 | *README.md* this file
 
 
