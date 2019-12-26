@@ -14,7 +14,7 @@ The dataset contains in total **543,705 records** (i.e. log entries) spread acro
 
 ## 2. Exploratory Data Analysis
 #### Churn frequency
-Churn is defined using the Cancellation Confirmation page (presumably once a user visits this page he has deleted his account). This happens for both paid and free users. Since 99 of 448 users have churned, the **churn frequency is 22%.**<br>
+Churn is defined using the Cancellation Confirmation page (once a user visits this page he has deleted his account). This happens for both paid and free users. Since 99 of 448 users have churned, the **churn frequency is 22%.**<br>
 #### Data Exploration
 To observe the behavior for users who stayed vs. users who churned, various user attributes are computed and compared. These (per-user) attributes are:
 * Count of each visited page (attribute name: *About, Add Friend, Add to Playlist, Cancel, Cancellation Confirmation, Downgrade, Error, Help, Home, Logout, NextSong, Roll Advert, Save Settings, Settings, Submit Downgrade, Submit Upgrade, Thumbs Down, Thumbs Up, Upgrade*)
