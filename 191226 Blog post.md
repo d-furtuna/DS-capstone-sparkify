@@ -9,7 +9,8 @@ The rest of the page describes the followed project steps.
 The project uses Spark Python API (PySpark) running on IBM Cloud on a medium-sized dataset (230MB) of Sparkify log data. PySpark was the chosen analysis language in order to perform data science at scale (i.e. Bid Data).<br>
 The dataset contains in total **543,705 records** (i.e. log entries) spread across **448 users**, out of which **99 users have visited the "Cancellation Confirmation" page (i.e. churned)**. The dataset spans 2 months of records (1-Oct-18 to 1-Dec-18) for the users.<br>
 
-![Figure 1 Columns of Sparkify log data](/Blog_figures/1.png)
+*Figure 1 Columns of Sparkify log data*<br>
+![Figure 1](/Blog_figures/1.png)
 
 	
 /Blog figures/2.png	
