@@ -72,6 +72,7 @@ Two machine learning methods were applied and evaluated:
 	* 11 – inputs
 	* 4
 	* 2 – predicted labels
+
 Since the churned users are a fairly small subset, F1 score was used as the optimization metric. In real-life, different weights would be assigned to different prediction categories and the model would be optimized with the given weights (e.g. TP = 100; FP = 10; FN = 50; TN = 1).<br>
 To maximize the F1 score, both the Logistic Regression and the Multi-Layer Perceptron used the returned probability that the user will churn. For the Logistic Regression, the threshold which maximized the F1 score was determined through a pyspark.ml function (using *fMeasureByThreshold*). For the MLP model the threshold was established by iterating through a series of thresholds and selecting the one which maximized the F1 score.<br>
 For both models model training and threshold selection was done on training data (350 users), and final model evaluation was done on test data (98 users).<br>
