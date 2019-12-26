@@ -1,6 +1,6 @@
 # Sparkify Capstone Project
 This project is part of the Capstone project for Udacity's Data Science Nanodegree.<br>
-The project analyses log data for two months for "Sparkify" music streaming service (which is similar to Spotify or Pandora), **to observe the behavior for users who stayed vs. users who churned.** Churn analysis is a very important business problem to help companies increase customer retention and loyalty.<br>
+The project analyses log data for two months for "Sparkify" music streaming service (which is similar to Spotify or Pandora), **to observe the behavior and predict users who stayed vs. users who churned.** Churn analysis is a very important business problem to help companies increase customer retention and loyalty.<br>
 To gain insights on churn and non-churn users, the project computes several user attributes from the log data. The data show that **users that cancel, tend to be new/recently registered, and less engaged with the platform.**<br>
 To predict churn, the project further builds two churn models: 1) a Logistic Regression, and 2) a Multi-Layer Perceptron (MLP). F1 score was used as the optimization metric for both models. **The MLP model provided slightly better results, with an F1 score of 0.78 for test data (vs. 0.76 for the Logistic Regression).**<br>
 The rest of the page describes the followed project steps.
